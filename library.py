@@ -1,9 +1,9 @@
 #Author, Michael Landry
 
 class Library:
-    shelf_count = 1
 
     def __init__(self, name):
+        self.shelf_count = 1
         self.name = name
         self.shelves = []
         self.unshelved_books = []
